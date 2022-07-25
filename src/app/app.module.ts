@@ -5,12 +5,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { TicketReservationComponent } from './components/ticket-reservation/ticket-reservation.component';
 import { VotesComponent } from './components/votes/votes.component';
+import { TestingStringsArraysComponent } from './components/testing-strings-arrays/testing-strings-arrays.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     TicketReservationComponent,
-    VotesComponent
+    VotesComponent,
+    TestingStringsArraysComponent
   ],
   imports: [
     BrowserModule,
