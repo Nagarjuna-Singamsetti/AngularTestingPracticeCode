@@ -10,3 +10,6 @@ export function compute(num: number) {
     else
         return num + 1;
 }
+export function hello(name:string) {
+    return 'Welcome ' + name;
+}

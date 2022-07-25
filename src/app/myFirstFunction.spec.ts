@@ -1,4 +1,4 @@
-import { addition, compute, subtraction } from "./myFirstFunction"
+import { addition, compute, hello, subtraction } from "./myFirstFunction"
 
 describe('Test Functions', () => {
     it('Testing Addition Function', () => {
@@ -7,7 +7,7 @@ describe('Test Functions', () => {
     it('Testing Subtraction Function', () => {
         expect(subtraction(25, 20)).toBe(5);
     });
-})
+});
 
 describe('Testing Compute Function', () => {
     it('Test if Number < 0', () => {
@@ -15,5 +15,11 @@ describe('Testing Compute Function', () => {
     });
     it('Test if Number > 0', () => {
         expect(compute(6)).toBe(7);
+    });
+});
+
+describe('Testing String Function', () => {
+    it('Test Hello Function', () => {
+        expect(hello('Nagarjuna')).toContain('Welcome Nagarjuna')
     });
 })
